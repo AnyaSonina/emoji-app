@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/emojionearea.min.css" />
+    <script
+      src="https://kit.fontawesome.com/6c88a3dc0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/emojionearea.min.js"></script>
+  </head>
+  <body>
+    <div class="flex_container">
+      <h1 class="app_title">My Emojis</h1>
+      <div id="emoji-container">Your emojis will appear here😉</div>
+      <input
+        type="text"
+        id="emoji-input"
+        placeholder="choose and type an emoji 🎉"
+      />
+      <div class="buttons-wrapper">
+        <button id="unshift-btn">
+          <i class="fa-solid fa-square-plus"></i>
+        </button>
+        <button id="shift-btn">
+          <i class="fa-solid fa-square-minus"></i>
+        </button>
+      </div>
+      <div class="buttons-wrapper">
+        <button id="push-btn"><i class="fa-solid fa-square-plus"></i></button>
+        <button id="pop-btn"><i class="fa-solid fa-square-minus"></i></button>
+      </div>
+      <div id="emoji-storage"></div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
